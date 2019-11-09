@@ -1,0 +1,13 @@
+<h1>{{title}}</h1>
+<button (click)="happy=!happy">😀</button>
+<section *ngIf="happy">
+  <img title="Happy" src="https://scienceworld.scholastic.com/content/dam/classroom-magazines/scienceworld/issues/2018-19/102918/happy-horse/SW-102918-HappyHorse-Medium1.jpg" />
+</section>
+<button (click)="sad=!sad">😢</button>
+<section *ngIf="sad">
+  <img title="Sad" src="https://i.imgflip.com/38zl8j.jpg" />
+</section>
+<button (click)="crazy=!crazy">🤪</button>
+<section *ngIf="crazy">
+  <img title="Crazy" src="https://stickershop.line-scdn.net/stickershop/v1/product/1220770/LINEStorePC/main.png;compress=true" />
+</section>
